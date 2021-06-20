@@ -7,6 +7,50 @@ li {
 }
 
 .header {
-  background-color: aqua;
+  background-color: rgba(0, 255, 13, 0.842);
+  color: #fff;
+  height: 110px;
 }
 
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px  20px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.content h1 {
+  font-size: 140px;
+}
+
+.content h2 {
+  font-size: 60px;
+}
+
+.footer {
+  background-color: cadetblue;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
