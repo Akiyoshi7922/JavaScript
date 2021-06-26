@@ -32,4 +32,11 @@ html {
 
 html {
   -webkit-text-size-adjust: 100%;
+  word-break: normal;
+  tab-size: 4;
+}
+
+:after, :before {
+  text-decoration: inherit;
+  vertical-align: inherit;
 }
