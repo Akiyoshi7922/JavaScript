@@ -102,3 +102,39 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+.header {
+    height: 75px;
+    background-color: #fff;
+    text-align: right;
+}
+.header .inner {
+  position: relative;
+}
+.header .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.logo img {
+    width: 120px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+
+.key-visual {
+   background-color: lightskyblue;
+}
+.key-visual {
+  background-color: lightskyblue;
+}
+.main {
+  background-color: #ccc;
+}
+.sec01 {
+  background-color: orange;
+}
