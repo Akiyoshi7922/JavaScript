@@ -110,6 +110,10 @@ input, select {
 }
 .header .inner {
   position: relative;
+  width: 1170px;
+  background-color: #cccccc;
+  height: 100%;
+  margin: 0 auto;
 }
 .header .logo {
   position: absolute;
