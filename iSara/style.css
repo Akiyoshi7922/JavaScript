@@ -30,6 +30,7 @@ time, mark, audio, video {
 }
 
 body {
+
     line-height:1;
 }
 
@@ -103,6 +104,14 @@ input, select {
     vertical-align:middle;
 }
 
+body {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}
+
+
 .header {
     height: 75px;
     background-color: #fff;
@@ -117,10 +126,15 @@ input, select {
 }
 .header .logo {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
-
 }
+
+.header .logo img {
+    position: relative;
+    top: 7px;
+}
+
 .logo img {
     width: 120px;
 }
