@@ -103,56 +103,63 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-body {
-    color: #333333;
-    font-size: 14px;
-    line-height: 1.6;
-    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
-}
-
-
 .header {
     height: 75px;
     background-color: #fff;
     text-align: right;
 }
 .header .inner {
-  position: relative;
-  width: 1170px;
-  background-color: #cccccc;
-  height: 100%;
-  margin: 0 auto;
+    position: relative;
+    width: 1170px;
+    height: 100%;
+    background-color: #cccccc;
+    margin: 0 auto;
 }
 .header .logo {
-  position: absolute;
-  top: 10px;
-  left: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
+
+
+.logo img {
+    width: 120px;
+}
+.btn {
+    display: inline-block;
+}
+.btn a {
+    display: block;
+    height: 45px;
+    padding: 0 40px;
+    border-radius: 22px;
+    line-height: 45px;
+    background-color: #da6b64;
+    color: #fff;
+}
+
+body {
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+    }
 
 .header .logo img {
     position: relative;
     top: 7px;
 }
 
-.logo img {
-    width: 120px;
-}
 
-.btn {
-    display: inline-block;
-}
+
 
 
 .key-visual {
-   background-color: lightskyblue;
-}
-.key-visual {
-  background-color: lightskyblue;
+    background-color: lightskyblue;
 }
 .main {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 .sec01 {
-  background-color: orange;
+    background-color: orange;
 }
