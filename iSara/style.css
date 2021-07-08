@@ -111,8 +111,7 @@ input, select {
 .header .inner {
     position: relative;
     width: 1170px;
-    height: 100%;
-    background-color: #cccccc;
+    padding: 15px;
     margin: 0 auto;
 }
 .header .logo {
@@ -138,11 +137,17 @@ input, select {
     color: #fff;
 }
 
+.btn a:hover {
+    background-color: #D84840;
+}
+
+
 body {
     color: #333333;
     font-size: 14px;
     line-height: 1.6;
-    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+    letter-spacing: 1px;
     }
 
 .header .logo img {
@@ -162,4 +167,13 @@ body {
 }
 .sec01 {
     background-color: orange;
+}
+.footer {
+    padding: 40px 0 25px;
+    background-color: #ececec;
+    font-size: 10px;
+    text-align: center;
+}
+.footer p:first-of-type {
+
 }
