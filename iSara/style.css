@@ -160,7 +160,31 @@ body {
 
 
 .key-visual {
+    position: relative;
+    height: 500px;
     background-color: lightskyblue;
+    background: url("images/main.jpg") no-repeat center center / cover;
+}
+.key-visual-ttl {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+.key-visual-ttl h2 {
+    font-size: 28px;
+    line-height: 2em;
+}
+.key-visual-ttl p {
+    font-size: 20px;
+    line-height: 1em;
+}
+.key-visual_logo {
+    margin-bottom: 40px;
+}
+.key-visual_logo img {
+    width: 300px;
 }
 .main {
     background-color: #ccc;
@@ -175,5 +199,13 @@ body {
     text-align: center;
 }
 .footer p:first-of-type {
-
+    margin-bottom: 60px;
+}
+.footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #23527c;
+    text-decoration: underline;
 }
