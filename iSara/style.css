@@ -162,7 +162,6 @@ body {
 .key-visual {
     position: relative;
     height: 500px;
-    background-color: lightskyblue;
     background: url("images/main.jpg") no-repeat center center / cover;
 }
 .key-visual-ttl {
@@ -190,8 +189,20 @@ body {
     background-color: #ccc;
 }
 .sec01 {
-    background-color: orange;
+    background-color: #EAB94D;
+    color: #fff;
+    text-align: center;
 }
+.sec01 h3 {
+    font-size: 20px;
+}
+.sec01 ul {
+    font-size: 21px;
+}
+.sec01 .notice {
+    font-size: 18px;
+}
+
 .footer {
     padding: 40px 0 25px;
     background-color: #ececec;
